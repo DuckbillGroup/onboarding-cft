@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: ""
+Resources:
+    DuckbillGroupRole:
+        Type: "AWS::IAM::Role"
+        Properties:
+            RoleName: "DuckbillGroup-CFT"
+            AssumeRolePolicyDocument:
+                Version: "2012-10-17"
+                Statement:
+                  -
+                    Effect: "Allow"
+                    Action: "sts:AssumeRole"
+                    Principal:
+                        AWS: "607466170983"
+            ManagedPolicyArns:
+                - arn:aws:iam::aws:policy/ReadOnlyAccess

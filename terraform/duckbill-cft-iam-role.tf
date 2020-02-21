@@ -20,5 +20,5 @@ resource "aws_iam_role" "DuckbillGroup_CFT_role" {
 
 resource "aws_iam_role_policy_attachment" "DuckbillGroup_CFT_role_attachment" {
   role       = aws_iam_role.DuckbillGroup_CFT_role.name
-  policy_arn = "arn:aws:iam::aws:policy/ReadOnlyAccess"
+  policy_arn = "arn:aws:iam::aws:policy/job-function/ViewOnlyAccess"
 }

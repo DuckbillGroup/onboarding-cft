@@ -14,4 +14,4 @@ Resources:
                     Principal:
                         AWS: "753095100886"
             ManagedPolicyArns:
-                - arn:aws:iam::aws:policy/ReadOnlyAccess
+                - arn:aws:iam::aws:policy/job-function/ViewOnlyAccess

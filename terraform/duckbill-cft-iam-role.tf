@@ -8,7 +8,7 @@ data "aws_iam_policy_document" "DuckbillGroup_CFT_AssumeRole_policy_document" {
 
     principals {
       type        = "AWS"
-      identifiers = ["607466170983"]
+      identifiers = ["753095100886"]
     }
   }
 }

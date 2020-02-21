@@ -12,6 +12,6 @@ Resources:
                     Effect: "Allow"
                     Action: "sts:AssumeRole"
                     Principal:
-                        AWS: "607466170983"
+                        AWS: "753095100886"
             ManagedPolicyArns:
                 - arn:aws:iam::aws:policy/ReadOnlyAccess

@@ -1,3 +1,6 @@
+> This tooling has moved to https://github.com/DuckbillGroup/onboarding
+
+
 ### Purpose
 We’ll be accessing your AWS accounts via an assumed role rather than IAM account. This needs to be set up in every account you have. If that’s not feasible, then apply it to your master payer account and your largest (by spend) account.
 
